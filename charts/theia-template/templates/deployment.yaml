@@ -20,7 +20,7 @@ spec:
       serviceAccountName: {{ include "theia-template.serviceAccountName" . }}
       containers:
         - name: ide
-          image: "{{ .Values.image.repository }}
+          image: "{{ .Values.image.repository }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
