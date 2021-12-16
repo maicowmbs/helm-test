@@ -2,7 +2,7 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: rishikoy/theiaide-full:1.0.0-SNAPSHOT
   pullPolicy: IfNotPresent
   tag: ""
 
