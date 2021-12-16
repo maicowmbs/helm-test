@@ -33,6 +33,7 @@ service:
   port: 80
 
 ingress:
+  domain: michael-ide.helm.jacexperts.io
   enabled: false
   className: ""
   annotations: {}
