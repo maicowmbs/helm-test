@@ -9,3 +9,8 @@ version: 0.1.0
 appVersion: "1.16.0"
 
 icon: file://icon.png
+
+dependencies:
+  - name: dependencia
+    version: "1.0.0"
+    path: "file"
